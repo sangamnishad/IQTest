@@ -1,0 +1,219 @@
+body{
+	overflow-x:hidden;
+	width:100%;
+	font: 12px "Century Gothic", "Times Roman", sans-serif;
+	background:#eee;
+	min-height:550px;
+	background-attachment:fixed;
+}
+.bg{
+	min-height:540px;
+}
+.bg1{
+	background:url(../image/home.jpg);min-height:535px;
+	background-repeat: repeat-x;
+	background-color: #202020;-webkit-background-size:cover;
+	background-size:cover;
+	background-size:cover;
+	background-size:cover;
+}
+@media (max-width: 768px)
+#main.homepage header {
+    min-height: 360px!important;
+    height: 360px!important;
+    }
+#main{
+	font: 20px "Century Gothic", "Times Roman", sans-serif;
+}
+@font-face {
+	font-family: 'typo';
+	src: url('../fonts/typo.ttf');
+}
+@font-face {
+	font-family: 'gothic';
+	src: url('../fonts/gothics.ttf');
+}
+/*@media all and (max-width:768px)*/
+.intro-text {
+    margin-left: -30px;
+}
+header {
+    text-align: left;
+    background: #18bc9c;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover !important;
+    -moz-background-size: cover !important;
+    -webkit-background-size: cover !important;
+}
+a, a:hover, a:focus, a:active, a.active {
+    color: #6c9d7b;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+  .row h3 {
+    margin: 0 0 10px;
+    font-size: 32px;
+    line-height: 1.4em;
+}
+.headerwithline {
+    text-align: center;
+    margin: 0 auto 100px!important;
+    display: table;
+    position: relative;
+}
+.headerwithline:after {
+    content: '';
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -10px;
+    height: 2px;
+    background: #526658;
+}
+#main.downarrow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -13px;
+    width: 27px;
+    height: 32px;
+    background: url('image/down-arrow.png') no-repeat left top;
+}
+a.button{
+	background: #526658!important;
+    border-radius: 5px!important;
+    -moz-border-radius: 5px!important;
+    -webkit-border-radius: 5px!important;
+    padding: 15px!important;
+    color: #fff!important;
+    font-size: 24px!important;
+    text-decoration: none!important;
+    display: inline-block!important;
+}
+/*@media all and (max-width:768px)*/
+header {
+    min-height: 100px;
+}
+header {
+    text-align: left;
+    background: #18bc9c;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover !important;
+    -moz-background-size: cover !important;
+    -webkit-background-size: cover !important;
+}
+div#maincontent {
+    outline: none;
+}
+/*@media all and (max-width:768px)*/
+header .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header .container {
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.panel{
+	border-color:#eee;
+	margin:40px;
+	padding:20px;
+	font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+.title{
+	font-family:'typo';
+}
+.header{
+	background:#202020;
+	height:70px;
+}
+.logo{
+	font-family:'typo';
+	font-size:35px;
+	color:#ffffff;
+	margin:15px;
+}
+.title1{
+	font: 12px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:20px;
+}
+.sub1{
+	color:#FFFFFF;
+	background:#0000ff;
+	font-size:15px;margin:20px;
+	padding:8px;
+}
+.logb{
+	color:#FFFFFF;
+	background:#0000ff;
+	font-size:15px;
+	margin:20px;
+	padding:8px;
+}
+.logb:hover{
+	color:lightyellow;
+}
+.sub{
+	color:#FFFFFF;
+	background:#0000ff;
+	font-size:15px;
+	margin:20px;
+	padding:8px;
+}
+.sub:hover{
+	background-color:#000066;
+}
+.footer{
+	font-size:15px;
+	text-align:center;
+	border-top:1px solid;
+	border-color:#323232;
+	background-color:#202020;
+}
+.footer a{
+	margin:25px;
+	color:#0000ff;
+	text-decoration:none;
+	font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+.box{
+	padding:9px;
+}
+hr{
+	color:#000000;
+}
+.top{
+	margin-top:20px;
+}
+.log1{
+	font: 15px 'Ubuntu', sans-serif;
+	color:#0000ff;margin-left:10px;
+}
+.log{
+	margin:10px;
+	margin-right:60px;
+	margin-left:5px;
+	color:#ffffb3;
+	text-decoration:none;
+	font-size:20px;
+	font-size:15px;
+}
+.log:hover{
+	color:#ffffff;
+	border-top:2px solid;
+	border-color:#000000;
+	text-decoration:none;
+}
+
+.pagedata{
+	font: 20px "Century Gothic", "Times Roman", sans-serif;
+}
+}
